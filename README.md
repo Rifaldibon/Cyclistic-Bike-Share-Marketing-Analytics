@@ -93,6 +93,6 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 1. Clone this repository: `git clone https://github.com/Rifaldibon/Cyclistic-Bike-Share-Marketing-Analytics.git`
 2. Run the data preparation script: `notebooks/prepare.ipynb`
 3. Run the ML imputation and cleaning pipeline: `notebboks/process.ipynb`
-4. Load the generated `data/bike_trip_data_clean(July 2025-June 2026).csv` into Tableau.
+4. Load the generated `bike_trip_data_clean(July 2025-June 2026).csv` into Tableau.
 
 ---
