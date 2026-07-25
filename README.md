@@ -54,7 +54,7 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 * **Data Processing & Cleaning:** Python (`Pandas`, `NumPy`)
 * **Spatial Imputation (Machine Learning):** Scikit-Learn (`BallTree` with Haversine distance)
 * **Statistical Filtering:** Interquartile Range (IQR) for ride length outlier detection
-* **Data Visualization:** Tableau Public
+* **Data Visualization:** Tableau Dekstop
 
 ---
 
