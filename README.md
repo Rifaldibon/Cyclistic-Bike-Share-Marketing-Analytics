@@ -21,6 +21,7 @@ The project was completed within **7 days**. -->
 
 ---
 
+<!-->
 <br>
 <h3 align="center"> This project still in progress. </h3>
 <p align="center">
@@ -30,6 +31,7 @@ The project was completed within **7 days**. -->
   <img src="assets/progress.gif" width="25%" alt="Alt Text">
 </p>
 </br>
+-->
 
 ![Tableau Dashboard](dashboard/dashboard_overview.png)
 
@@ -42,9 +44,9 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 ![Cyclistic Dashboard Overview](dashboard/dashboard_overview.png)
 
 ### 2. Interactive Filtering Demo
-![Dashboard Interactivity Demo](dashboard_demo.gif)
+![Dashboard Interactivity Demo](dashboard/visualization.gif)
 
-> 💡 **Note for Reviewers:** You can download the full Tableau Packaged Workbook file [`Visualisasi.twbx`](dashboard/Visualisasi.twbx) from this repository to explore all calculated fields and interactive elements natively in Tableau Reader or Tableau Desktop.
+> 💡 **Note for Reviewers:** You can download the full Tableau Packaged Workbook file [`visualization.twbx`](dashboard/visualization.twbx) from this repository to explore all calculated fields and interactive elements natively in Tableau Reader or Tableau Desktop.
 
 ---
 ---
@@ -61,7 +63,7 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 
 ### 1. User Volume & Duration Trade-off
 * **Annual Members** dominate overall usage, accounting for **66.6% (3.49M trips)** of total rides.
-* **Casual Riders** account for **33.4% (1.75M trips)**, but spend **~16.6% longer duration** per ride (12.29 min avg) compared to Members (10.54 min avg).
+* **Casual Riders** account for **33.4% (1.75M trips)**, but spend **16.6% longer duration** per ride (12.29 min avg) compared to Members (10.54 min avg).
 
 ### 2. Behavioral Patterns (Commuters vs. Leisure)
 * **Peak Days:** Members peak during weekdays (**Tuesday - Thursday**), whereas Casual rides surge by **+75% on weekends** (peak on Saturday with 354.8K trips).
@@ -69,7 +71,7 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 
 ### 3. Seasonality & Fleet Preferences
 * **Seasonality:** Casual rides are extremely weather-sensitive, plummeting by **-91.7%** during winter (Jan 2026) compared to peak summer (July/August 2025).
-* **E-Bike Demand:** Casual riders show a stronger preference for **Electric Bikes (~72.5%)** over Classic Bikes.
+* **E-Bike Demand:** Casual riders show a stronger preference for **Electric Bikes (72.5%)** over Classic Bikes.
 * **Hotspots:** Casual trips are heavily concentrated in tourist and coastal areas, with **Navy Pier** and **DuSable Lake Shore Drive** being the top departure stations.
 
 ---
@@ -83,14 +85,14 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
    * Introduce a **"Summer Pass"** or **"Weekend Pass"** tailored for leisure riders, featuring an automated upgrade path to a full Annual Membership.
 
 3. **E-Bike Loyalty Incentives:**
-   * Capitalize on the high casual preference for e-bikes (~72.5%) by offering Annual Members waived e-bike unlock fees and discounted per-minute rates.
+   * Capitalize on the high casual preference for e-bikes (72.5%) by offering Annual Members waived e-bike unlock fees and discounted per-minute rates.
 
 ---
 
 ## ⚙️ How to Reproduce
-1. Clone this repository: `git clone https://github.com/username/repository-name.git`
-2. Run the data preparation script: `jupyter notebook prepare.ipynb`
-3. Run the ML imputation and cleaning pipeline: `jupyter notebook process.ipynb`
-4. Load the generated `bike_trip_data_clean(July 2025-June 2026).csv` into Tableau.
+1. Clone this repository: `git clone https://github.com/Rifaldibon/Cyclistic-Bike-Share-Marketing-Analytics.git`
+2. Run the data preparation script: `notebooks/prepare.ipynb`
+3. Run the ML imputation and cleaning pipeline: `notebboks/process.ipynb`
+4. Load the generated `data/bike_trip_data_clean(July 2025-June 2026).csv` into Tableau.
 
 ---
