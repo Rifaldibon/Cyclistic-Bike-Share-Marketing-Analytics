@@ -33,7 +33,7 @@ The project was completed within **7 days**. -->
 </br>
 -->
 
-![Tableau Dashboard](dashboard/dashboard_overview.png)
+![Tableau Dashboard](dashboard/dashboard_overvie.png)
 
 ## 📌 Executive Summary
 Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 600 docking stations. This project analyzes **5.24+ million ride records** spanning from **July 2025 to June 2026** to understand how **Annual Members** and **Casual Riders** use bikes differently. The ultimate business goal is to design data-driven marketing strategies to convert high-value Casual Riders into Annual Members.
@@ -41,7 +41,7 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 ## 📊 Interactive Dashboard Showcase
 
 ### 1. Full Dashboard Overview
-![Cyclistic Dashboard Overview](dashboard/dashboard_overview.png)
+![Cyclistic Dashboard Overview](dashboard/dashboard_overvie.png)
 
 ### 2. Interactive Filtering Demo
 ![Dashboard Interactivity Demo](dashboard/visualization.gif)
