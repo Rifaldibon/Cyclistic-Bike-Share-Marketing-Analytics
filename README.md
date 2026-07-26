@@ -16,8 +16,10 @@ You are a junior data analyst working on the marketing analyst team at Cyclistic
 | **Cyclistic executive team** | The notoriously detail-oriented executive team will decide whether to approve the recommended marketing program. |
 
 ### Project Duration
+
 The project was implemented from **20 July 2026** to **26 July 2026**. <br>
 The project was completed within **6 days**.
+
 ---
 
 <!--
