@@ -4,7 +4,7 @@
 ## Project Overview
 ### Scenario
 
-You are a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compeling data insights and professional data visualizations. 
+You are a junior data analyst working on the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations. 
 
 ### Teams
 
@@ -12,7 +12,7 @@ You are a junior data analyst working on the marketing analyst team at Cyclistic
 | :--- | :---|
 | **Cyclistic** | A bike-share program that features more than 5,800 bicycles and 600 docking stations. |
 | **Lily Moreno** | The director of marketing and my manager. Moreno is responsible for the development of campaigns and initiatives to promote the bike-share program. |
-| **Cyclistic marketing analytics team** | A team of data analysts who are responsible for colecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. (My team) |
+| **Cyclistic marketing analytics team** | A team of data analysts who are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. (My team) |
 | **Cyclistic executive team** | The notoriously detail-oriented executive team will decide whether to approve the recommended marketing program. |
 
 ### Project Duration
@@ -21,18 +21,6 @@ The project was implemented from **20 July 2026** to **26 July 2026**. <br>
 The project was completed within **6 days**.
 
 ---
-
-<!--
-<br>
-<h3 align="center"> This project still in progress. </h3>
-<p align="center">
-  <img src="assets/reporting.gif" width="15%" alt="Alt Text">
-</p>
-<p align="center">
-  <img src="assets/progress.gif" width="25%" alt="Alt Text">
-</p>
-</br>
--->
 
 ![Tableau Dashboard](dashboard/dashboard_overview.png)
 
@@ -55,7 +43,7 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 * **Data Processing & Cleaning:** Python (`Pandas`, `NumPy`)
 * **Spatial Imputation (Machine Learning):** Scikit-Learn (`BallTree` with Haversine distance)
 * **Statistical Filtering:** Interquartile Range (IQR) for ride length outlier detection
-* **Data Visualization:** Tableau Dekstop
+* **Data Visualization:** Tableau Desktop
 
 ---
 
@@ -92,7 +80,7 @@ Cyclistic is a bike-share program in Chicago featuring over 5,800 bicycles and 6
 ## ⚙️ How to Reproduce
 1. Clone this repository: `git clone https://github.com/Rifaldibon/Cyclistic-Bike-Share-Marketing-Analytics.git`
 2. Run the data preparation script: `notebooks/prepare.ipynb`
-3. Run the ML imputation and cleaning pipeline: `notebboks/process.ipynb`
+3. Run the ML imputation and cleaning pipeline: `notebooks/process.ipynb`
 4. Load the generated `bike_trip_data_clean(July 2025-June 2026).csv` into Tableau.
 
 ---
