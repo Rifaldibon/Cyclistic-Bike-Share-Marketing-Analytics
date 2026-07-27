@@ -1,5 +1,7 @@
 # Analitik Marketing Cyclistic Bike-Share: Menganalisis Perilaku Pengguna untuk Meningkatkan Membership
 
+Opsi Bahasa: [English](README.md)
+
 ---
 ## Ringkasan Proyek
 ### Skenario
